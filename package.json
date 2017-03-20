@@ -4,7 +4,8 @@
   "description": "Redux RU tutorial",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "server": "node server.js",
+    "build": "webpack --progress --profile --colors --display-error-details --display-cached --watch"
   },
   "author": "Maxim Patsianskiy",
   "license": "MIT",
